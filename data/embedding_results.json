@@ -1,0 +1,56 @@
+[
+  {
+    "batch_size": 1,
+    "local_ms": 3.3,
+    "local_throughput": 305.1,
+    "cf_estimated_ms": 50.0,
+    "speedup_vs_cf": 15.3,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  },
+  {
+    "batch_size": 8,
+    "local_ms": 7.6,
+    "local_throughput": 1046.7,
+    "cf_estimated_ms": 400.0,
+    "speedup_vs_cf": 52.3,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  },
+  {
+    "batch_size": 16,
+    "local_ms": 9.8,
+    "local_throughput": 1635.5,
+    "cf_estimated_ms": 800.0,
+    "speedup_vs_cf": 81.8,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  },
+  {
+    "batch_size": 32,
+    "local_ms": 20.3,
+    "local_throughput": 1574.8,
+    "cf_estimated_ms": 1600.0,
+    "speedup_vs_cf": 78.7,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  },
+  {
+    "batch_size": 64,
+    "local_ms": 29.4,
+    "local_throughput": 2175.2,
+    "cf_estimated_ms": 3200.0,
+    "speedup_vs_cf": 108.8,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  },
+  {
+    "batch_size": 96,
+    "local_ms": 43.2,
+    "local_throughput": 2224.6,
+    "cf_estimated_ms": 4800.0,
+    "speedup_vs_cf": 111.2,
+    "embedding_dim": 384,
+    "gpu_mem_mb": 142.0
+  }
+]
